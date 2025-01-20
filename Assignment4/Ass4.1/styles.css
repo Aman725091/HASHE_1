@@ -1,0 +1,25 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  body.dark-theme {
+    background-color: #1e1e1e; /* Dark background */
+    color: #f4f4f4; /* Light text */
+  }
+  
+  .container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
